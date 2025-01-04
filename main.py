@@ -14,8 +14,8 @@ intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix='/', intents=intents)
 
-ALLOWED_GUILD_IDS = [1225075859333845154]
-VOICE_CHANNELS = {1225075859333845154: 1289694911234310155}
+ALLOWED_GUILD_IDS = [guild_id]
+VOICE_CHANNELS = {guild_id: voice_id}
 TELEGRAM_URL = "https://t.me/s/sirena_dp"
 
 SIREN_START_AUDIO = "siren/siren_start.mp3"
