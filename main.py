@@ -128,12 +128,10 @@ async def on_voice_state_update(member, before, after):
 
 
 async def main():
-    TOKEN = "MTMyNDAzNDg3NTAyMzU1NjczOQ.GFf5-c.5r8neJII3oFniy3_tmEfT7a277u7emC9Wbjr4A"
+    TOKEN = "token"
     async with bot:
         await bot.start(TOKEN)
 
 
 if __name__ == "__main__":
     asyncio.run(main())
-
-#MTMyNDAzNDg3NTAyMzU1NjczOQ.GFf5-c.5r8neJII3oFniy3_tmEfT7a277u7emC9Wbjr4A
